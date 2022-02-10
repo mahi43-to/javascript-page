@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contanier">
+        <div id="player1">
+            <span>Player 1 : </span>
+            <span id="player1_pick"></span>
+        </div>
+
+        <div id="player2">
+            <span>Player 2 : </span>
+            <span id="player2_pick"></span>
+        </div>
+
+        <div id="btn-container">
+            <input class="btn" id="player1-btn" onclick="player1_El()" type="button" value="Pick for player 1">
+            <input class="btn" id="player2-btn" onclick="player2_El()" type="button" value="Pick for player 2">
+        </div>
+
+        <div id="result">
+            <p id="result_El"></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

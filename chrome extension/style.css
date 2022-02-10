@@ -1,0 +1,33 @@
+#input-el {
+    display: block;
+    width: 100%;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px, 0;
+    box-sizing: border-box;
+}
+
+#input-btn {
+    padding: 20px;
+    background-color: rgb(23, 189, 23);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    padding-left: 6px;
+}
+a {
+    color: rgb(13, 141, 13);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 26px;
+}

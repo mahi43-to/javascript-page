@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pushPopUnshift</title>
+</head>
+<body>
+    
+    <script>
+        let largeCountries = ["Tuvalu","India", "USA", "Russia", "China", 'Canada',"pakistan"];
+
+        largeCountries.pop()
+        largeCountries.shift()
+        largeCountries.unshift("msWorld")
+        largeCountries.push("UK")
+        console.log(largeCountries)
+        for(let i = 0; i <largeCountries.length; i++) {
+            console.log("-"+largeCountries[i])
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    /* background-image: url(OIP.jpg); */
+    background-color: rgba(221, 213, 213, 0.788);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+ h2 {
+     font-size: 50px;
+     margin-top: 0;
+     margin-bottom: 20px;
+ }
+
+ button {
+     border: none;
+     padding: 10px;
+     font-size: 16px;
+     font-weight: 600;
+
+     color: rgb(68, 65, 65);
+     border-radius: 12px;
+     width: 250px;
+     height: 40px;
+ }
+ #increment-btn {
+     margin-top: 10px;
+    background-color: orange;
+ }
+ #decrement-btn {
+     margin-top: 15px;
+     background-color: whitesmoke;
+ }
+ #reset-btn {
+     margin-top: 15px;
+     background-color: whitesmoke;
+
+ }
+ #save-btn {
+     margin-top: 15px;
+     background-color: green;
+ }
+
+ #container {
+     background-color: lightseagreen; 
+     border: 2px solid transparent;
+     border-radius: 7px;
+     display: flexbox;
+     width: 400px;
+     height: 500px;
+     margin-top: 100px;
+     margin-left: 35%;
+
+ } 
+
