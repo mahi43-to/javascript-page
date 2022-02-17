@@ -70,13 +70,18 @@ inputBtn.addEventListener("click", function() {
 })
 
 // for give the key to tab array
-const tabs = [
-    {urls : "https://www.linkedin.com/in/per-harald-borgen/"}
-]
+// const tabs = [
+//     {urls : "https://www.linkedin.com/in/per-harald-borgen/"}
+// ]
 
 // listen for clicks on tabBtn. log linkedIn url to the console
 tabBtn.addEventListener("click", function() {
-    console.log(tabs[0].urls)
+    // console.log(tabs[0].urls)
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+        myUrls.push(tabs[0].urls)
+        localStorage.setItem("myUrls", JSON.stringify(myUrls))
+        render(myUrls)
+    })
 })
     
 
