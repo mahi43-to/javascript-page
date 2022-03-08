@@ -26,8 +26,8 @@ numOFFEl.addEventListener("click", function () {
         let num1El = document.getElementById("num1-btn");
         num1El.addEventListener("click", function () {
           //console.log(num1El.value);
-          inputEl.value += parseInt(document.getElementById("num1-btn").value);
-          console.log(typeof(inputEl.value))
+          inputEl.textContent += document.getElementById("num1-btn").value;
+          console.log(typeof(document.getElementById("num1-btn").value))
         });
     
         let num2El = document.getElementById("num2-btn");

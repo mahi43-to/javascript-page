@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <button class="btn" onclick="fun()">Click me</button>
+    <div class="here" ></div>
+
+
+    <!-- event bubbling and capturing -->
+    <form onclick="alert('I am form tag')">
+        I am form
+        <div onclick="alert('I am div tag')">I am div
+            <p onclick="alert('I am p tag')">I am p</p>
+        </div>
+    </form>
+
+    <!-- custom event -->
+    <button onclick="customEventhandler()">CustomEvent</button>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
